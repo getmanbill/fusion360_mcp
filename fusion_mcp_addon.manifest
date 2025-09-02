@@ -1,0 +1,13 @@
+{
+    "autodeskProduct": "Fusion360",
+    "type": "addin",
+    "id": "fusion.mcp.addon",
+    "author": "Fusion MCP Team",
+    "description": {
+        "": "Basic MCP communication add-in for Fusion 360"
+    },
+    "version": "1.0.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}
