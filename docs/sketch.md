@@ -579,7 +579,7 @@ Combined sketch creation and line addition for testing.
 }
 ```
 
-## Key Lessons from test_exact_example_script.py
+## Key Lessons from test/test_exact_example_script.py
 
 ### Exact API Replication Pattern
 The test script demonstrates a **precise step-by-step replication** of the original Fusion 360 API workflow:

@@ -1,0 +1,6 @@
+[1mdiff --git a/fusion_addon b/fusion_addon[m
+[1m--- a/fusion_addon[m
+[1m+++ b/fusion_addon[m
+[36m@@ -1 +1 @@[m
+[31m-Subproject commit 5fe9b770377feb1e4384021c7f776ee5542d9f75[m
+[32m+[m[32mSubproject commit 5fe9b770377feb1e4384021c7f776ee5542d9f75-dirty[m

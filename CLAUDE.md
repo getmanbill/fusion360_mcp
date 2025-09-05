@@ -78,3 +78,13 @@ This indicates a Fusion API crash due to thread safety violations. Ensure all ha
 Sketches need proper plane references and must be activated before adding geometry. Use the test handler to isolate issues.
 
 Do NOT use emojis in python files.
+
+When exploring new fusion methods, you must log each step in test files to confirm method and attribute names, and check against web documentation to clarify your thinking.
+
+We cannot see logs added to the addon code, but CAN see logging in our test files.
+
+You cannot move forward without doing so.
+
+To deploy changes, use @deploy_fusion_addon.py and then wait for user confirmation that they've restarted the addon in Fusion
+
+If you add tests, you MUST add them in the test/ directory. Your tests must be conducted outside of Fusion, to test our add on inside.

@@ -1,0 +1,709 @@
+[
+  {
+    "timestamp": "2025-09-03T07:34:11.758499",
+    "operation": "CONNECTION_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "attempt": 1
+    },
+    "request_id": 1
+  },
+  {
+    "timestamp": "2025-09-03T07:34:11.758499",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.new_document",
+      "params_keys": [
+        "document_type"
+      ],
+      "request_id": 1
+    },
+    "request_id": 1
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.133502",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.new_document",
+      "has_result": true
+    },
+    "request_id": 2
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.133502",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "params_keys": [
+        "name",
+        "value",
+        "units"
+      ],
+      "request_id": 2
+    },
+    "request_id": 2
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.320564",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "has_result": true
+    },
+    "request_id": 3
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.321559",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "params_keys": [
+        "name",
+        "value",
+        "units"
+      ],
+      "request_id": 3
+    },
+    "request_id": 3
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.332564",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "has_result": true
+    },
+    "request_id": 4
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.332564",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "params_keys": [
+        "name",
+        "value",
+        "units"
+      ],
+      "request_id": 4
+    },
+    "request_id": 4
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.378392",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "has_result": true
+    },
+    "request_id": 5
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.378392",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "params_keys": [
+        "name",
+        "value",
+        "units"
+      ],
+      "request_id": 5
+    },
+    "request_id": 5
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.389392",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "has_result": true
+    },
+    "request_id": 6
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.389392",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "params_keys": [
+        "name",
+        "value",
+        "units"
+      ],
+      "request_id": 6
+    },
+    "request_id": 6
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.400391",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "has_result": true
+    },
+    "request_id": 7
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.400391",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "params_keys": [
+        "name",
+        "value",
+        "units"
+      ],
+      "request_id": 7
+    },
+    "request_id": 7
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.433391",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "has_result": true
+    },
+    "request_id": 8
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.433391",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "params_keys": [
+        "name",
+        "value",
+        "units"
+      ],
+      "request_id": 8
+    },
+    "request_id": 8
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.456390",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "has_result": true
+    },
+    "request_id": 9
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.456390",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "params_keys": [
+        "name",
+        "value",
+        "units"
+      ],
+      "request_id": 9
+    },
+    "request_id": 9
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.467391",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "has_result": true
+    },
+    "request_id": 10
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.467391",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "params_keys": [
+        "name",
+        "value",
+        "units"
+      ],
+      "request_id": 10
+    },
+    "request_id": 10
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.489390",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.set_parameter",
+      "has_result": true
+    },
+    "request_id": 11
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.489390",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_sketch",
+      "params_keys": [
+        "plane_reference",
+        "name"
+      ],
+      "request_id": 11
+    },
+    "request_id": 11
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.692665",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_sketch",
+      "has_result": true
+    },
+    "request_id": 12
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.693649",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.get_sketch_revision_id",
+      "params_keys": [
+        "sketch_id"
+      ],
+      "request_id": 12
+    },
+    "request_id": 12
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.704761",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.get_sketch_revision_id",
+      "has_result": true
+    },
+    "request_id": 13
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.705752",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "params_keys": [
+        "sketch_id",
+        "start_point",
+        "end_point"
+      ],
+      "request_id": 13
+    },
+    "request_id": 13
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.827414",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "has_result": true
+    },
+    "request_id": 14
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.827414",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "params_keys": [
+        "sketch_id",
+        "start_point",
+        "end_point"
+      ],
+      "request_id": 14
+    },
+    "request_id": 14
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.953097",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "has_result": true
+    },
+    "request_id": 15
+  },
+  {
+    "timestamp": "2025-09-03T07:34:12.953097",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "params_keys": [
+        "sketch_id",
+        "start_point",
+        "end_point"
+      ],
+      "request_id": 15
+    },
+    "request_id": 15
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.084044",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "has_result": true
+    },
+    "request_id": 16
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.084044",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "params_keys": [
+        "sketch_id",
+        "start_point",
+        "end_point"
+      ],
+      "request_id": 16
+    },
+    "request_id": 16
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.203913",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "has_result": true
+    },
+    "request_id": 17
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.203913",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "params_keys": [
+        "sketch_id",
+        "start_point",
+        "end_point"
+      ],
+      "request_id": 17
+    },
+    "request_id": 17
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.322913",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "has_result": true
+    },
+    "request_id": 18
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.322913",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "params_keys": [
+        "sketch_id",
+        "start_point",
+        "end_point"
+      ],
+      "request_id": 18
+    },
+    "request_id": 18
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.458959",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "has_result": true
+    },
+    "request_id": 19
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.459961",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_circle",
+      "params_keys": [
+        "sketch_id",
+        "center",
+        "radius"
+      ],
+      "request_id": 19
+    },
+    "request_id": 19
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.474963",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_circle",
+      "has_result": true
+    },
+    "request_id": 20
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.475963",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_circle",
+      "params_keys": [
+        "sketch_id",
+        "center",
+        "radius"
+      ],
+      "request_id": 20
+    },
+    "request_id": 20
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.504963",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_circle",
+      "has_result": true
+    },
+    "request_id": 21
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.504963",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_circle",
+      "params_keys": [
+        "sketch_id",
+        "center",
+        "radius"
+      ],
+      "request_id": 21
+    },
+    "request_id": 21
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.516962",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_circle",
+      "has_result": true
+    },
+    "request_id": 22
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.516962",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_circle",
+      "params_keys": [
+        "sketch_id",
+        "center",
+        "radius"
+      ],
+      "request_id": 22
+    },
+    "request_id": 22
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.549963",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_circle",
+      "has_result": true
+    },
+    "request_id": 23
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.550962",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "params_keys": [
+        "sketch_id",
+        "start_point",
+        "end_point"
+      ],
+      "request_id": 23
+    },
+    "request_id": 23
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.716837",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "has_result": true
+    },
+    "request_id": 24
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.716837",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "params_keys": [
+        "sketch_id",
+        "start_point",
+        "end_point"
+      ],
+      "request_id": 24
+    },
+    "request_id": 24
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.888875",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.create_line",
+      "has_result": true
+    },
+    "request_id": 25
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.889874",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.add_radius_constraint",
+      "params_keys": [
+        "sketch_id",
+        "entity_id",
+        "radius"
+      ],
+      "request_id": 25
+    },
+    "request_id": 25
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.922880",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.add_radius_constraint",
+      "has_result": true
+    },
+    "request_id": 26
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.922880",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.add_radius_constraint",
+      "params_keys": [
+        "sketch_id",
+        "entity_id",
+        "radius"
+      ],
+      "request_id": 26
+    },
+    "request_id": 26
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.934598",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.add_radius_constraint",
+      "has_result": true
+    },
+    "request_id": 27
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.934598",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.get_sketch_revision_id",
+      "params_keys": [
+        "sketch_id"
+      ],
+      "request_id": 27
+    },
+    "request_id": 27
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.946593",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.get_sketch_revision_id",
+      "has_result": true
+    },
+    "request_id": 28
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.946593",
+    "operation": "REQUEST_SEND",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.get_sketch_info",
+      "params_keys": [
+        "sketch_id"
+      ],
+      "request_id": 28
+    },
+    "request_id": 28
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.959598",
+    "operation": "REQUEST_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "method": "fusion.get_sketch_info",
+      "has_result": true
+    },
+    "request_id": 29
+  },
+  {
+    "timestamp": "2025-09-03T07:34:13.962593",
+    "operation": "CONNECTION_CLOSED",
+    "level": "INFO",
+    "details": {},
+    "request_id": 29
+  }
+]
