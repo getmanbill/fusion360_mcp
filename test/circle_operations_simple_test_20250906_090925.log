@@ -1,0 +1,72 @@
+2025-09-06 09:09:25,636 - INFO - ============================================================
+2025-09-06 09:09:25,636 - INFO - STARTING SIMPLE CIRCLE OPERATIONS TEST VIA MCP
+2025-09-06 09:09:25,636 - INFO - ============================================================
+2025-09-06 09:09:25,643 - INFO - Connected to MCP server at localhost:8765
+2025-09-06 09:09:25,644 - INFO - Testing circle creation methods...
+2025-09-06 09:09:25,644 - INFO - Creating test sketch...
+2025-09-06 09:09:25,834 - INFO - Sketch creation response: {'result': {'success': True, 'sketch_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1IOuNTSwAPryPPYgAAAA=', 'name': 'CircleTestSketch (1)', 'plane_info': {'reference': 'XY'}, 'is_active': False}, 'id': 1}
+2025-09-06 09:09:25,835 - INFO - Created sketch: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1IOuNTSwAPryPPYgAAAA=
+2025-09-06 09:09:25,835 - INFO - Testing create_circle_by_center_radius...
+2025-09-06 09:09:25,846 - INFO - Circle creation response: {'result': {'success': True, 'entity_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitIVAYAAyFSwWSAAAA', 'center_point_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1RqZmQNLYBGipoQEA2TKDLY4AAAA=', 'entity_type': 'circle', 'creation_method': 'addByCenterRadius', 'radius': 5.0, 'construction': False, 'center': {'x': 0.0, 'y': 0.0}}, 'id': 2}
+2025-09-06 09:09:25,846 - INFO - [PASS] create_circle_by_center_radius: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitIVAYAAyFSwWSAAAA
+2025-09-06 09:09:25,846 - INFO -   Radius: 5.0
+2025-09-06 09:09:25,846 - INFO - Testing create_circle_by_three_points...
+2025-09-06 09:09:25,861 - INFO - [PASS] create_circle_by_three_points: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitobGCAQBiUc8GkgAAAA==
+2025-09-06 09:09:25,861 - INFO -   Radius: 4.166666666666667
+2025-09-06 09:09:25,861 - INFO - Testing create_circle_by_two_points...
+2025-09-06 09:09:25,888 - INFO - [PASS] create_circle_by_two_points: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitIVALANAtQgKSAAAA
+2025-09-06 09:09:25,888 - INFO -   Radius: 5.0
+2025-09-06 09:09:25,888 - INFO -   Diameter: 10.0
+2025-09-06 09:09:25,888 - INFO - Testing backward compatibility create_circle...
+2025-09-06 09:09:25,915 - INFO - [PASS] create_circle (backward compatibility): /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitobmCAQC++cYBkgAAAA==
+2025-09-06 09:09:25,915 - INFO -   Radius: 3.0
+2025-09-06 09:09:25,915 - INFO - [PASS] Circle creation methods completed
+2025-09-06 09:09:25,915 - INFO - Testing circle query methods...
+2025-09-06 09:09:25,916 - INFO - Testing get_circle_properties...
+2025-09-06 09:09:25,927 - INFO - [PASS] get_circle_properties: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitIVAYAAyFSwWSAAAA
+2025-09-06 09:09:25,928 - INFO -   Radius: 5.0
+2025-09-06 09:09:25,928 - INFO -   Area: 78.53981633974483
+2025-09-06 09:09:25,928 - INFO -   Circumference: 31.41592653589793
+2025-09-06 09:09:25,928 - INFO -   Center: (0.00, 0.00)
+2025-09-06 09:09:25,928 - INFO - Testing get_circle_state...
+2025-09-06 09:09:25,951 - INFO - [PASS] get_circle_state: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitIVAYAAyFSwWSAAAA
+2025-09-06 09:09:25,951 - INFO -   Construction: False
+2025-09-06 09:09:25,951 - INFO -   Deletable: True
+2025-09-06 09:09:25,951 - INFO -   Fixed: False
+2025-09-06 09:09:25,951 - INFO -   Visible: True
+2025-09-06 09:09:25,952 - INFO - Testing get_circle_constraints...
+2025-09-06 09:09:25,963 - INFO - [PASS] get_circle_constraints: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitIVAYAAyFSwWSAAAA
+2025-09-06 09:09:25,963 - INFO -   Constraints: 0
+2025-09-06 09:09:25,963 - INFO -   Dimensions: 0
+2025-09-06 09:09:25,963 - INFO - [PASS] Circle query methods completed
+2025-09-06 09:09:25,963 - INFO - Testing circle intersection methods...
+2025-09-06 09:09:25,963 - INFO - Testing get_circle_intersections...
+2025-09-06 09:09:25,964 - INFO -   Testing intersections for circle: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitIVAYAAyFSwWSAAAA
+2025-09-06 09:09:25,964 - INFO -   In sketch with other geometry present
+2025-09-06 09:09:25,975 - INFO - get_circle_intersections response: {'result': {'success': True, 'operation': 'intersections', 'circle_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitIVAYAAyFSwWSAAAA', 'target_curve_id': None, 'intersection_count': 1, 'intersection_points': [{'x': -5.0, 'y': 0.0, 'z': 0.0}], 'intersecting_curves': [{'entity_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitIVALANAtQgKSAAAA', 'object_type': 'adsk::fusion::SketchCircle'}]}, 'id': 9}
+2025-09-06 09:09:25,975 - INFO - [PASS] get_circle_intersections: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGYNrYBGitIVAYAAyFSwWSAAAA
+2025-09-06 09:09:25,975 - INFO -   Intersections found: 1
+2025-09-06 09:09:25,975 - INFO -   Intersection 1: (-5.00, 0.00)
+2025-09-06 09:09:25,975 - INFO - [PASS] Circle intersection methods completed
+2025-09-06 09:09:25,976 - INFO - ============================================================
+2025-09-06 09:09:25,976 - INFO - MCP TEST SUMMARY REPORT
+2025-09-06 09:09:25,976 - INFO - ============================================================
+2025-09-06 09:09:25,976 - INFO - Start time: 2025-09-06 09:09:25.636488
+2025-09-06 09:09:25,976 - INFO - End time: 2025-09-06 09:09:25.976493
+2025-09-06 09:09:25,976 - INFO - Duration: 0:00:00.340005
+2025-09-06 09:09:25,976 - INFO - 
+2025-09-06 09:09:25,977 - INFO - [PASS] ALL MCP TESTS PASSED
+2025-09-06 09:09:25,977 - INFO - Circle operations are working correctly via MCP!
+2025-09-06 09:09:25,977 - INFO - 
+2025-09-06 09:09:25,977 - INFO - TESTED METHODS VIA MCP:
+2025-09-06 09:09:25,977 - INFO -   [TESTED] create_circle_by_center_radius
+2025-09-06 09:09:25,977 - INFO -   [TESTED] create_circle_by_three_points
+2025-09-06 09:09:25,977 - INFO -   [TESTED] create_circle_by_two_points
+2025-09-06 09:09:25,978 - INFO -   [TESTED] create_circle (backward compatibility)
+2025-09-06 09:09:25,978 - INFO -   [TESTED] get_circle_properties
+2025-09-06 09:09:25,978 - INFO -   [TESTED] get_circle_constraints
+2025-09-06 09:09:25,978 - INFO -   [TESTED] get_circle_state
+2025-09-06 09:09:25,978 - INFO -   [TESTED] get_circle_intersections
+2025-09-06 09:09:25,978 - INFO - 
+2025-09-06 09:09:25,978 - INFO - NOTE: These tests called the real circle_operations.py methods
+2025-09-06 09:09:25,978 - INFO - through MCP socket communication with actual Fusion 360 API.

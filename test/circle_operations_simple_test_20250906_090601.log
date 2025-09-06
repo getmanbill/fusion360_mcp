@@ -1,0 +1,29 @@
+2025-09-06 09:06:01,466 - INFO - ============================================================
+2025-09-06 09:06:01,467 - INFO - STARTING SIMPLE CIRCLE OPERATIONS TEST VIA MCP
+2025-09-06 09:06:01,468 - INFO - ============================================================
+2025-09-06 09:06:01,476 - INFO - Connected to MCP server at localhost:8765
+2025-09-06 09:06:01,476 - INFO - Testing circle creation methods...
+2025-09-06 09:06:01,477 - INFO - Creating test sketch...
+2025-09-06 09:06:01,489 - ERROR - Failed to create sketch: {'result': {'error': 'plane_reference is required'}, 'id': 1}
+2025-09-06 09:06:01,490 - INFO - ============================================================
+2025-09-06 09:06:01,490 - INFO - MCP TEST SUMMARY REPORT
+2025-09-06 09:06:01,490 - INFO - ============================================================
+2025-09-06 09:06:01,490 - INFO - Start time: 2025-09-06 09:06:01.466418
+2025-09-06 09:06:01,490 - INFO - End time: 2025-09-06 09:06:01.489413
+2025-09-06 09:06:01,491 - INFO - Duration: 0:00:00.022995
+2025-09-06 09:06:01,491 - INFO - 
+2025-09-06 09:06:01,491 - INFO - [FAIL] SOME MCP TESTS FAILED
+2025-09-06 09:06:01,491 - INFO - Check the log for details on what failed.
+2025-09-06 09:06:01,492 - INFO - 
+2025-09-06 09:06:01,492 - INFO - TESTED METHODS VIA MCP:
+2025-09-06 09:06:01,492 - INFO -   [TESTED] create_circle_by_center_radius
+2025-09-06 09:06:01,492 - INFO -   [TESTED] create_circle_by_three_points
+2025-09-06 09:06:01,493 - INFO -   [TESTED] create_circle_by_two_points
+2025-09-06 09:06:01,493 - INFO -   [TESTED] create_circle (backward compatibility)
+2025-09-06 09:06:01,493 - INFO -   [TESTED] get_circle_properties
+2025-09-06 09:06:01,493 - INFO -   [TESTED] get_circle_constraints
+2025-09-06 09:06:01,493 - INFO -   [TESTED] get_circle_state
+2025-09-06 09:06:01,494 - INFO -   [TESTED] get_circle_intersections
+2025-09-06 09:06:01,494 - INFO - 
+2025-09-06 09:06:01,494 - INFO - NOTE: These tests called the real circle_operations.py methods
+2025-09-06 09:06:01,494 - INFO - through MCP socket communication with actual Fusion 360 API.

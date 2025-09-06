@@ -1,0 +1,55 @@
+2025-09-06 09:06:59,514 - INFO - ============================================================
+2025-09-06 09:06:59,515 - INFO - STARTING SIMPLE CIRCLE OPERATIONS TEST VIA MCP
+2025-09-06 09:06:59,515 - INFO - ============================================================
+2025-09-06 09:06:59,522 - INFO - Connected to MCP server at localhost:8765
+2025-09-06 09:06:59,522 - INFO - Testing circle creation methods...
+2025-09-06 09:06:59,523 - INFO - Creating test sketch...
+2025-09-06 09:06:59,748 - INFO - Sketch creation response: {'result': {'success': True, 'sketch_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1IOsNLS0AHRali4gAAAA=', 'name': 'CircleTestSketch', 'plane_info': {'reference': 'XY'}, 'is_active': False}, 'id': 1}
+2025-09-06 09:06:59,748 - INFO - Created sketch: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1IOsNLS0AHRali4gAAAA=
+2025-09-06 09:06:59,749 - INFO - Testing create_circle_by_center_radius...
+2025-09-06 09:06:59,765 - INFO - Circle creation response: {'result': {'success': True, 'entity_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGEGstgdYaANkAZ2FCCpIAAAA=', 'center_point_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1RqZmIK4l0FIDQwD5MZ5ojgAAAA==', 'entity_type': 'circle', 'creation_method': 'addByCenterRadius', 'radius': 5.0, 'construction': False, 'center': {'x': 0.0, 'y': 0.0}}, 'id': 2}
+2025-09-06 09:06:59,765 - INFO - [PASS] create_circle_by_center_radius: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGEGstgdYaANkAZ2FCCpIAAAA=
+2025-09-06 09:06:59,765 - INFO -   Radius: 5.0
+2025-09-06 09:06:59,766 - INFO - Testing create_circle_by_three_points...
+2025-09-06 09:06:59,967 - INFO - [PASS] create_circle_by_three_points: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGEGstgdYamCgYAADVHc8OkgAAAA==
+2025-09-06 09:06:59,967 - INFO -   Radius: 4.166666666666667
+2025-09-06 09:06:59,967 - INFO - Testing create_circle_by_two_points...
+2025-09-06 09:06:59,994 - INFO - [PASS] create_circle_by_two_points: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGEGstgdYamCkYAAC7yUsNkgAAAA==
+2025-09-06 09:06:59,994 - INFO -   Radius: 5.0
+2025-09-06 09:06:59,994 - INFO -   Diameter: 10.0
+2025-09-06 09:06:59,994 - INFO - Testing backward compatibility create_circle...
+2025-09-06 09:07:00,023 - INFO - [PASS] create_circle (backward compatibility): /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGEGstgdYaAB0DALHk1QeSAAAA
+2025-09-06 09:07:00,023 - INFO -   Radius: 3.0
+2025-09-06 09:07:00,023 - INFO - [PASS] Circle creation methods completed
+2025-09-06 09:07:00,023 - INFO - Testing circle query methods...
+2025-09-06 09:07:00,023 - INFO - Testing get_circle_properties...
+2025-09-06 09:07:00,035 - ERROR - get_circle_properties failed: {'result': {'error': "Failed to get circle properties: 'CircleOperations' object has no attribute 'get_entity_by_token'"}, 'id': 6}
+2025-09-06 09:07:00,035 - INFO - Testing circle intersection methods...
+2025-09-06 09:07:00,035 - INFO - Testing get_circle_intersections...
+2025-09-06 09:07:00,036 - INFO -   Testing intersections for circle: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZQsGiAz8U4j3Zp99/wXLjzgxRsEpjMwXTpFSLpNSkVN1ES3NDXZPEVEtdSwszU10zE7NU4zQzE0tLM1OgaWAzGNAA2D4DBbB1poZGEGstgdYaANkAZ2FCCpIAAAA=
+2025-09-06 09:07:00,036 - INFO -   In sketch with other geometry present
+2025-09-06 09:07:00,057 - INFO - get_circle_intersections response: {'result': {'error': "Failed to get circle intersections: 'CircleOperations' object has no attribute 'get_entity_by_token'"}, 'id': 7}
+2025-09-06 09:07:00,058 - ERROR - get_circle_intersections failed: {'result': {'error': "Failed to get circle intersections: 'CircleOperations' object has no attribute 'get_entity_by_token'"}, 'id': 7}
+2025-09-06 09:07:00,058 - ERROR -   Error details: Failed to get circle intersections: 'CircleOperations' object has no attribute 'get_entity_by_token'
+2025-09-06 09:07:00,058 - INFO - ============================================================
+2025-09-06 09:07:00,059 - INFO - MCP TEST SUMMARY REPORT
+2025-09-06 09:07:00,059 - INFO - ============================================================
+2025-09-06 09:07:00,059 - INFO - Start time: 2025-09-06 09:06:59.514214
+2025-09-06 09:07:00,059 - INFO - End time: 2025-09-06 09:07:00.058591
+2025-09-06 09:07:00,059 - INFO - Duration: 0:00:00.544377
+2025-09-06 09:07:00,059 - INFO - 
+2025-09-06 09:07:00,059 - INFO - [FAIL] SOME MCP TESTS FAILED
+2025-09-06 09:07:00,059 - INFO - Check the log for details on what failed.
+2025-09-06 09:07:00,060 - INFO - 
+2025-09-06 09:07:00,060 - INFO - TESTED METHODS VIA MCP:
+2025-09-06 09:07:00,060 - INFO -   [TESTED] create_circle_by_center_radius
+2025-09-06 09:07:00,060 - INFO -   [TESTED] create_circle_by_three_points
+2025-09-06 09:07:00,060 - INFO -   [TESTED] create_circle_by_two_points
+2025-09-06 09:07:00,060 - INFO -   [TESTED] create_circle (backward compatibility)
+2025-09-06 09:07:00,060 - INFO -   [TESTED] get_circle_properties
+2025-09-06 09:07:00,060 - INFO -   [TESTED] get_circle_constraints
+2025-09-06 09:07:00,061 - INFO -   [TESTED] get_circle_state
+2025-09-06 09:07:00,061 - INFO -   [TESTED] get_circle_intersections
+2025-09-06 09:07:00,061 - INFO - 
+2025-09-06 09:07:00,061 - INFO - NOTE: These tests called the real circle_operations.py methods
+2025-09-06 09:07:00,061 - INFO - through MCP socket communication with actual Fusion 360 API.
