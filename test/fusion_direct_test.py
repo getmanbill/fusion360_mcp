@@ -12,9 +12,11 @@ def run(context):
         app = adsk.core.Application.get()
         ui = app.userInterface
         
-        # Create new document (like official sample)
-        doc = app.documents.add(adsk.core.DocumentTypes.FusionDesignDocumentType)
+        # Get active design
         design = app.activeProduct
+        if not design or design.objectType != adsk.fusion.Design.classType():
+            ui.messageBox("No active design!", "Error")
+            return
         
         # Get root component
         rootComp = design.rootComponent

@@ -1,0 +1,47 @@
+2025-09-06 08:20:21,720 - INFO - ============================================================
+2025-09-06 08:20:21,720 - INFO - STARTING COMPREHENSIVE ARC OPERATIONS TEST VIA MCP
+2025-09-06 08:20:21,720 - INFO - ============================================================
+2025-09-06 08:20:21,728 - INFO - Connected to MCP server at localhost:8765
+2025-09-06 08:20:21,728 - INFO - Testing arc creation methods...
+2025-09-06 08:20:21,728 - INFO - Creating test sketch...
+2025-09-06 08:20:21,933 - INFO - Sketch creation response: {'result': {'success': True, 'sketch_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALYOZL2JkZkhACsk2AaJAAAA', 'name': 'ArcTestSketch (10)', 'plane_info': {'reference': 'XY'}, 'is_active': False}, 'id': 1}
+2025-09-06 08:20:21,934 - INFO - Created sketch: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALYOZL2JkZkhACsk2AaJAAAA
+2025-09-06 08:20:21,934 - INFO - Testing create_arc_by_three_points...
+2025-09-06 08:20:21,946 - INFO - Arc creation response: {'result': {'success': True, 'arc_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALbO1NAITJsYmQFttQByAA7e5YKTAAAA', 'center_point_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALbOyNQMSJoYmQHttDAEAFdkD+6PAAAA', 'start_point_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALbOyNQMSJoYmQHtNLcEAKrwTGePAAAA', 'end_point_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALbOyNQMSJoYmQHttDAAAMFUCJmPAAAA', 'radius': 3.5355339059327378, 'is_construction': False}, 'id': 2}
+2025-09-06 08:20:21,946 - INFO - [PASS] create_arc_by_three_points: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALbO1NAITJsYmQFttQByAA7e5YKTAAAA
+2025-09-06 08:20:21,947 - INFO -   Radius: 3.5355339059327378
+2025-09-06 08:20:21,947 - INFO - Testing create_arc_by_center_start_sweep...
+2025-09-06 08:20:21,974 - INFO - [PASS] create_arc_by_center_start_sweep: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALbO1NAITJsYmQFttTBTMAAA0nbshZMAAAA=
+2025-09-06 08:20:21,974 - INFO -   Radius: 5.0
+2025-09-06 08:20:21,975 - INFO -   Sweep angle: 1.57
+2025-09-06 08:20:21,975 - INFO - Creating lines for fillet test...
+2025-09-06 08:20:22,291 - INFO - Created lines: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALbO1NAITJsYmQFttQDqAQDvMbCOkwAAAA==, /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALbO1NAITJsYmQFttQRyAGu5WTqTAAAA
+2025-09-06 08:20:22,291 - INFO - Testing create_arc_fillet...
+2025-09-06 08:20:22,303 - ERROR - create_arc_fillet failed: {'result': {'error': "Failed to create fillet arc: in method 'SketchArcs_addFillet', argument 3 of type 'adsk::core::Ptr< adsk::core::Point3D > const &'"}, 'id': 6}
+2025-09-06 08:20:22,303 - INFO - Testing error handling...
+2025-09-06 08:20:22,314 - INFO - [PASS] Error handling: Invalid sketch ID correctly rejected
+2025-09-06 08:20:22,325 - INFO - [PASS] Error handling: Invalid coordinates correctly rejected
+2025-09-06 08:20:22,325 - INFO - [PASS] Error handling completed
+2025-09-06 08:20:22,325 - INFO - ============================================================
+2025-09-06 08:20:22,326 - INFO - MCP TEST SUMMARY REPORT
+2025-09-06 08:20:22,326 - INFO - ============================================================
+2025-09-06 08:20:22,326 - INFO - Start time: 2025-09-06 08:20:21.719646
+2025-09-06 08:20:22,327 - INFO - End time: 2025-09-06 08:20:22.325246
+2025-09-06 08:20:22,327 - INFO - Duration: 0:00:00.605600
+2025-09-06 08:20:22,327 - INFO - 
+2025-09-06 08:20:22,327 - INFO - [FAIL] SOME MCP TESTS FAILED
+2025-09-06 08:20:22,328 - INFO - Check the log for details on what failed.
+2025-09-06 08:20:22,328 - INFO - 
+2025-09-06 08:20:22,328 - INFO - TESTED METHODS VIA MCP:
+2025-09-06 08:20:22,328 - INFO -   [TESTED] create_arc_by_three_points
+2025-09-06 08:20:22,329 - INFO -   [TESTED] create_arc_by_center_start_sweep
+2025-09-06 08:20:22,329 - INFO -   [TESTED] create_arc_fillet
+2025-09-06 08:20:22,329 - INFO -   [TESTED] get_arc_properties
+2025-09-06 08:20:22,330 - INFO -   [TESTED] get_arc_constraints
+2025-09-06 08:20:22,330 - INFO -   [TESTED] get_arc_state
+2025-09-06 08:20:22,330 - INFO -   [TESTED] get_arc_intersections
+2025-09-06 08:20:22,330 - INFO -   [TESTED] split_arc
+2025-09-06 08:20:22,331 - INFO -   [TESTED] break_arc_curve
+2025-09-06 08:20:22,331 - INFO - 
+2025-09-06 08:20:22,331 - INFO - NOTE: These tests called the real arc_operations.py methods
+2025-09-06 08:20:22,332 - INFO - through MCP socket communication with actual Fusion 360 API.

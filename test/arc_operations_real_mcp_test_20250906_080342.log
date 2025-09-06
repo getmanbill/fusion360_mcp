@@ -1,0 +1,34 @@
+2025-09-06 08:03:42,019 - INFO - ============================================================
+2025-09-06 08:03:42,020 - INFO - STARTING COMPREHENSIVE ARC OPERATIONS TEST VIA MCP
+2025-09-06 08:03:42,020 - INFO - ============================================================
+2025-09-06 08:03:42,028 - INFO - Connected to MCP server at localhost:8765
+2025-09-06 08:03:42,028 - INFO - Testing arc creation methods...
+2025-09-06 08:03:42,029 - INFO - Creating test sketch...
+2025-09-06 08:03:42,030 - ERROR - Failed to create sketch: {'error': 'Unknown method: create_sketch', 'code': -32601, 'id': 1}
+2025-09-06 08:03:42,030 - INFO - Testing error handling...
+2025-09-06 08:03:42,030 - INFO - [PASS] Error handling: Invalid sketch ID correctly rejected
+2025-09-06 08:03:42,031 - INFO - [PASS] Error handling: Invalid coordinates correctly rejected
+2025-09-06 08:03:42,032 - INFO - [PASS] Error handling completed
+2025-09-06 08:03:42,032 - INFO - ============================================================
+2025-09-06 08:03:42,032 - INFO - MCP TEST SUMMARY REPORT
+2025-09-06 08:03:42,032 - INFO - ============================================================
+2025-09-06 08:03:42,032 - INFO - Start time: 2025-09-06 08:03:42.019273
+2025-09-06 08:03:42,033 - INFO - End time: 2025-09-06 08:03:42.032070
+2025-09-06 08:03:42,033 - INFO - Duration: 0:00:00.012797
+2025-09-06 08:03:42,033 - INFO - 
+2025-09-06 08:03:42,033 - INFO - [FAIL] SOME MCP TESTS FAILED
+2025-09-06 08:03:42,034 - INFO - Check the log for details on what failed.
+2025-09-06 08:03:42,034 - INFO - 
+2025-09-06 08:03:42,034 - INFO - TESTED METHODS VIA MCP:
+2025-09-06 08:03:42,034 - INFO -   [TESTED] create_arc_by_three_points
+2025-09-06 08:03:42,034 - INFO -   [TESTED] create_arc_by_center_start_sweep
+2025-09-06 08:03:42,035 - INFO -   [TESTED] create_arc_fillet
+2025-09-06 08:03:42,035 - INFO -   [TESTED] get_arc_properties
+2025-09-06 08:03:42,035 - INFO -   [TESTED] get_arc_constraints
+2025-09-06 08:03:42,035 - INFO -   [TESTED] get_arc_state
+2025-09-06 08:03:42,035 - INFO -   [TESTED] get_arc_intersections
+2025-09-06 08:03:42,036 - INFO -   [TESTED] split_arc
+2025-09-06 08:03:42,036 - INFO -   [TESTED] break_arc_curve
+2025-09-06 08:03:42,036 - INFO - 
+2025-09-06 08:03:42,037 - INFO - NOTE: These tests called the real arc_operations.py methods
+2025-09-06 08:03:42,037 - INFO - through MCP socket communication with actual Fusion 360 API.

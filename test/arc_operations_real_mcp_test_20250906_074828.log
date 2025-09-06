@@ -1,0 +1,5 @@
+2025-09-06 07:48:28,232 - INFO - ============================================================
+2025-09-06 07:48:28,233 - INFO - STARTING COMPREHENSIVE ARC OPERATIONS TEST VIA MCP
+2025-09-06 07:48:28,233 - INFO - ============================================================
+2025-09-06 07:48:30,267 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-09-06 07:48:30,267 - ERROR - Failed to connect to MCP server

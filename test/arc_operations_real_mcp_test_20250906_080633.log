@@ -1,0 +1,37 @@
+2025-09-06 08:06:33,965 - INFO - ============================================================
+2025-09-06 08:06:33,966 - INFO - STARTING COMPREHENSIVE ARC OPERATIONS TEST VIA MCP
+2025-09-06 08:06:33,966 - INFO - ============================================================
+2025-09-06 08:06:33,985 - INFO - Connected to MCP server at localhost:8765
+2025-09-06 08:06:33,985 - INFO - Testing arc creation methods...
+2025-09-06 08:06:33,985 - INFO - Creating test sketch...
+2025-09-06 08:06:34,169 - INFO - Sketch creation response: {'result': {'success': True, 'sketch_id': '/v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALYOZL2xoSkArlCQ1ogAAAA=', 'name': 'ArcTestSketch (2)', 'plane_info': {'reference': 'XY'}, 'is_active': False}, 'id': 1}
+2025-09-06 08:06:34,172 - INFO - Created sketch: /v4BAAAARlJLZXkAH4sIAAAAAAAA/zNQsFAwAEJDBSMgBrOMLIAsQwUTkIiZgsyHeEHJaf5cm/mPTJeYFakCVmlsppBmYJxmbmhppmtpmGaha5JkkaablJpirJtmkWZsnJSWlGyWZgk0DWwGAxoA22egALYOZL2xoSkArlCQ1ogAAAA=
+2025-09-06 08:06:34,172 - INFO - Testing create_arc_by_three_points...
+2025-09-06 08:06:34,184 - ERROR - create_arc_by_three_points failed: {'result': {'error': "Failed to create arc by three points: in method 'SketchArcs_addByThreePoints', argument 3 of type 'adsk::core::Ptr< adsk::core::Point3D > const &'"}, 'id': 2}
+2025-09-06 08:06:34,184 - INFO - Testing error handling...
+2025-09-06 08:06:34,196 - INFO - [PASS] Error handling: Invalid sketch ID correctly rejected
+2025-09-06 08:06:34,207 - INFO - [PASS] Error handling: Invalid coordinates correctly rejected
+2025-09-06 08:06:34,207 - INFO - [PASS] Error handling completed
+2025-09-06 08:06:34,208 - INFO - ============================================================
+2025-09-06 08:06:34,208 - INFO - MCP TEST SUMMARY REPORT
+2025-09-06 08:06:34,208 - INFO - ============================================================
+2025-09-06 08:06:34,208 - INFO - Start time: 2025-09-06 08:06:33.965559
+2025-09-06 08:06:34,209 - INFO - End time: 2025-09-06 08:06:34.207567
+2025-09-06 08:06:34,209 - INFO - Duration: 0:00:00.242008
+2025-09-06 08:06:34,209 - INFO - 
+2025-09-06 08:06:34,210 - INFO - [FAIL] SOME MCP TESTS FAILED
+2025-09-06 08:06:34,210 - INFO - Check the log for details on what failed.
+2025-09-06 08:06:34,210 - INFO - 
+2025-09-06 08:06:34,210 - INFO - TESTED METHODS VIA MCP:
+2025-09-06 08:06:34,211 - INFO -   [TESTED] create_arc_by_three_points
+2025-09-06 08:06:34,211 - INFO -   [TESTED] create_arc_by_center_start_sweep
+2025-09-06 08:06:34,211 - INFO -   [TESTED] create_arc_fillet
+2025-09-06 08:06:34,211 - INFO -   [TESTED] get_arc_properties
+2025-09-06 08:06:34,212 - INFO -   [TESTED] get_arc_constraints
+2025-09-06 08:06:34,212 - INFO -   [TESTED] get_arc_state
+2025-09-06 08:06:34,212 - INFO -   [TESTED] get_arc_intersections
+2025-09-06 08:06:34,212 - INFO -   [TESTED] split_arc
+2025-09-06 08:06:34,213 - INFO -   [TESTED] break_arc_curve
+2025-09-06 08:06:34,213 - INFO - 
+2025-09-06 08:06:34,213 - INFO - NOTE: These tests called the real arc_operations.py methods
+2025-09-06 08:06:34,213 - INFO - through MCP socket communication with actual Fusion 360 API.

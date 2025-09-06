@@ -1,0 +1,40 @@
+2025-09-05 10:41:58,240 - INFO - ============================================================
+2025-09-05 10:41:58,241 - INFO - STARTING COMPREHENSIVE ARC OPERATIONS TEST SUITE
+2025-09-05 10:41:58,241 - INFO - ============================================================
+2025-09-05 10:41:58,241 - INFO - Testing arc creation methods...
+2025-09-05 10:41:58,242 - INFO - MockArcOperations initialized
+2025-09-05 10:41:58,242 - INFO - Testing create_arc_by_three_points
+2025-09-05 10:41:58,255 - INFO - Testing create_arc_by_center_start_sweep
+2025-09-05 10:41:58,259 - INFO - Testing create_arc_fillet
+2025-09-05 10:41:58,267 - INFO - Testing arc manipulation methods...
+2025-09-05 10:41:58,267 - INFO - MockArcOperations initialized
+2025-09-05 10:41:58,268 - INFO - Testing break_arc_curve
+2025-09-05 10:41:58,272 - INFO - Testing extend_arc
+2025-09-05 10:41:58,275 - INFO - Testing split_arc
+2025-09-05 10:41:58,279 - INFO - Testing trim_arc
+2025-09-05 10:41:58,286 - INFO - Testing arc query methods...
+2025-09-05 10:41:58,286 - INFO - MockArcOperations initialized
+2025-09-05 10:41:58,287 - INFO - Testing get_arc_intersections
+2025-09-05 10:41:58,291 - INFO - Testing get_arc_properties
+2025-09-05 10:41:58,295 - INFO - Testing get_arc_constraints
+2025-09-05 10:41:58,298 - INFO - Testing get_arc_state
+2025-09-05 10:41:58,305 - INFO - Testing helper methods...
+2025-09-05 10:41:58,306 - INFO - MockArcOperations initialized
+2025-09-05 10:41:58,306 - INFO - Testing _find_sketch_arc
+2025-09-05 10:41:58,313 - INFO - Testing _find_sketch_curve
+2025-09-05 10:41:58,324 - INFO - Testing error handling scenarios...
+2025-09-05 10:41:58,324 - INFO - MockArcOperations initialized
+2025-09-05 10:41:58,341 - INFO - ============================================================
+2025-09-05 10:41:58,341 - INFO - TEST SUMMARY REPORT
+2025-09-05 10:41:58,341 - INFO - ============================================================
+2025-09-05 10:41:58,342 - INFO - Start time: 2025-09-05 10:41:58.240252
+2025-09-05 10:41:58,342 - INFO - End time: 2025-09-05 10:41:58.341484
+2025-09-05 10:41:58,342 - INFO - Duration: 0:00:00.101232
+2025-09-05 10:41:58,342 - INFO - 
+2025-09-05 10:41:58,346 - INFO - Tests passed: 5/5
+2025-09-05 10:41:58,346 - INFO - 
+2025-09-05 10:41:58,346 - INFO - TESTED METHODS:
+2025-09-05 10:41:58,387 - INFO - 
+2025-09-05 10:41:58,387 - INFO - NOTE: These tests simulate the arc_operations.py methods outside of Fusion 360.
+2025-09-05 10:41:58,388 - INFO - All methods passed their mock implementations successfully.
+2025-09-05 10:41:58,388 - INFO - Deploy to Fusion 360 using @deploy_fusion_addon.py to test with real API.

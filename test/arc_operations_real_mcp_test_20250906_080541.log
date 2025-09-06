@@ -1,0 +1,39 @@
+2025-09-06 08:05:41,585 - INFO - ============================================================
+2025-09-06 08:05:41,585 - INFO - STARTING COMPREHENSIVE ARC OPERATIONS TEST VIA MCP
+2025-09-06 08:05:41,586 - INFO - ============================================================
+2025-09-06 08:05:41,593 - INFO - Connected to MCP server at localhost:8765
+2025-09-06 08:05:41,594 - INFO - Testing arc creation methods...
+2025-09-06 08:05:41,594 - INFO - Creating test sketch...
+2025-09-06 08:05:41,829 - ERROR - [FAIL] Test failed with exception: 'data'
+2025-09-06 08:05:41,837 - ERROR - Traceback (most recent call last):
+  File "C:\Users\getma\OneDrive\Documents\Python_Scripts\fusion_python\test\test_arc_operations_real_mcp.py", line 334, in run_comprehensive_arc_test
+    result = test_arc_creation_methods(client)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\getma\OneDrive\Documents\Python_Scripts\fusion_python\test\test_arc_operations_real_mcp.py", line 88, in test_arc_creation_methods
+    sketch_id = response["result"]["data"]["sketch_id"]
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+
+2025-09-06 08:05:41,838 - INFO - ============================================================
+2025-09-06 08:05:41,838 - INFO - MCP TEST SUMMARY REPORT
+2025-09-06 08:05:41,839 - INFO - ============================================================
+2025-09-06 08:05:41,839 - INFO - Start time: 2025-09-06 08:05:41.585120
+2025-09-06 08:05:41,839 - INFO - End time: 2025-09-06 08:05:41.838119
+2025-09-06 08:05:41,840 - INFO - Duration: 0:00:00.252999
+2025-09-06 08:05:41,840 - INFO - 
+2025-09-06 08:05:41,840 - INFO - [FAIL] SOME MCP TESTS FAILED
+2025-09-06 08:05:41,840 - INFO - Check the log for details on what failed.
+2025-09-06 08:05:41,841 - INFO - 
+2025-09-06 08:05:41,841 - INFO - TESTED METHODS VIA MCP:
+2025-09-06 08:05:41,841 - INFO -   [TESTED] create_arc_by_three_points
+2025-09-06 08:05:41,841 - INFO -   [TESTED] create_arc_by_center_start_sweep
+2025-09-06 08:05:41,842 - INFO -   [TESTED] create_arc_fillet
+2025-09-06 08:05:41,842 - INFO -   [TESTED] get_arc_properties
+2025-09-06 08:05:41,842 - INFO -   [TESTED] get_arc_constraints
+2025-09-06 08:05:41,843 - INFO -   [TESTED] get_arc_state
+2025-09-06 08:05:41,843 - INFO -   [TESTED] get_arc_intersections
+2025-09-06 08:05:41,843 - INFO -   [TESTED] split_arc
+2025-09-06 08:05:41,843 - INFO -   [TESTED] break_arc_curve
+2025-09-06 08:05:41,844 - INFO - 
+2025-09-06 08:05:41,844 - INFO - NOTE: These tests called the real arc_operations.py methods
+2025-09-06 08:05:41,844 - INFO - through MCP socket communication with actual Fusion 360 API.

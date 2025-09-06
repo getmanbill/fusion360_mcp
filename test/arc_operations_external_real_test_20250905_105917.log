@@ -1,0 +1,29 @@
+2025-09-05 10:59:17,119 - INFO - ============================================================
+2025-09-05 10:59:17,120 - INFO - STARTING REAL EXTERNAL ARC OPERATIONS TEST VIA MCP
+2025-09-05 10:59:17,120 - INFO - ============================================================
+2025-09-05 10:59:17,120 - INFO - Testing real arc creation methods via MCP...
+2025-09-05 10:59:17,121 - INFO - Creating test sketch...
+2025-09-05 10:59:17,281 - ERROR - Failed to create test sketch: {'success': False, 'error': 'MCP call failed: Traceback (most recent call last):\n  File "C:\\Users\\getma\\OneDrive\\Documents\\Python_Scripts\\fusion_python\\test\\..\\fusion_addon\\fusion_mcp_server.py", line 10, in <module>\n    import adsk.core\nModuleNotFoundError: No module named \'adsk\'\n'}
+2025-09-05 10:59:17,282 - ERROR - [FAIL] Test failed with exception: cannot unpack non-iterable bool object
+2025-09-05 10:59:17,282 - INFO - ============================================================
+2025-09-05 10:59:17,283 - INFO - EXTERNAL TEST SUMMARY REPORT
+2025-09-05 10:59:17,283 - INFO - ============================================================
+2025-09-05 10:59:17,283 - INFO - Start time: 2025-09-05 10:59:17.119960
+2025-09-05 10:59:17,284 - INFO - End time: 2025-09-05 10:59:17.282984
+2025-09-05 10:59:17,284 - INFO - Duration: 0:00:00.163024
+2025-09-05 10:59:17,284 - INFO - 
+2025-09-05 10:59:17,284 - INFO - [FAIL] SOME EXTERNAL TESTS FAILED
+2025-09-05 10:59:17,285 - INFO - Check the log for details on what failed.
+2025-09-05 10:59:17,285 - INFO - 
+2025-09-05 10:59:17,285 - INFO - TESTED METHODS VIA MCP:
+2025-09-05 10:59:17,285 - INFO -   [TESTED] create_arc_by_three_points
+2025-09-05 10:59:17,285 - INFO -   [TESTED] create_arc_by_center_start_sweep
+2025-09-05 10:59:17,286 - INFO -   [TESTED] create_arc_fillet
+2025-09-05 10:59:17,286 - INFO -   [TESTED] get_arc_properties
+2025-09-05 10:59:17,286 - INFO -   [TESTED] get_arc_constraints
+2025-09-05 10:59:17,286 - INFO -   [TESTED] get_arc_state
+2025-09-05 10:59:17,287 - INFO -   [TESTED] get_arc_intersections
+2025-09-05 10:59:17,287 - INFO -   [TESTED] split_arc
+2025-09-05 10:59:17,288 - INFO - 
+2025-09-05 10:59:17,288 - INFO - NOTE: These tests called the real arc_operations.py methods
+2025-09-05 10:59:17,288 - INFO - through the MCP server interface with actual Fusion 360 API calls.

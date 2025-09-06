@@ -1,0 +1,78 @@
+2025-09-05 10:46:46,679 - INFO - ============================================================
+2025-09-05 10:46:46,680 - INFO - STARTING COMPREHENSIVE ARC OPERATIONS TEST SUITE
+2025-09-05 10:46:46,680 - INFO - ============================================================
+2025-09-05 10:46:46,680 - INFO - Testing arc creation methods...
+2025-09-05 10:46:46,681 - INFO - MockArcOperations initialized
+2025-09-05 10:46:46,681 - INFO - Testing create_arc_by_three_points
+2025-09-05 10:46:46,682 - INFO - [PASS] create_arc_by_three_points: mock_arc_1
+2025-09-05 10:46:46,682 - INFO - Testing create_arc_by_center_start_sweep
+2025-09-05 10:46:46,682 - INFO - [PASS] create_arc_by_center_start_sweep: mock_arc_2
+2025-09-05 10:46:46,683 - INFO - Testing create_arc_fillet
+2025-09-05 10:46:46,683 - INFO - [PASS] create_arc_fillet: mock_arc_3
+2025-09-05 10:46:46,683 - INFO - [PASS] Arc creation methods: PASSED
+2025-09-05 10:46:46,683 - INFO - Testing arc manipulation methods...
+2025-09-05 10:46:46,684 - INFO - MockArcOperations initialized
+2025-09-05 10:46:46,684 - INFO - Testing break_arc_curve
+2025-09-05 10:46:46,685 - INFO - [PASS] break_arc_curve: 2 curves created
+2025-09-05 10:46:46,685 - INFO - Testing extend_arc
+2025-09-05 10:46:46,685 - INFO - [PASS] extend_arc: new length 15.7
+2025-09-05 10:46:46,685 - INFO - Testing split_arc
+2025-09-05 10:46:46,686 - INFO - [PASS] split_arc: 2 curves created
+2025-09-05 10:46:46,686 - INFO - Testing trim_arc
+2025-09-05 10:46:46,686 - INFO - [PASS] trim_arc: new length 15.7
+2025-09-05 10:46:46,687 - INFO - [PASS] Arc manipulation methods: PASSED
+2025-09-05 10:46:46,687 - INFO - Testing arc query methods...
+2025-09-05 10:46:46,687 - INFO - MockArcOperations initialized
+2025-09-05 10:46:46,688 - INFO - Testing get_arc_intersections
+2025-09-05 10:46:46,688 - INFO - [PASS] get_arc_intersections: 0 intersections
+2025-09-05 10:46:46,688 - INFO - Testing get_arc_properties
+2025-09-05 10:46:46,688 - INFO - [PASS] get_arc_properties: radius 5.0, length 15.7
+2025-09-05 10:46:46,689 - INFO - Testing get_arc_constraints
+2025-09-05 10:46:46,689 - INFO - [PASS] get_arc_constraints: 0 constraints, 0 dimensions
+2025-09-05 10:46:46,689 - INFO - Testing get_arc_state
+2025-09-05 10:46:46,689 - INFO - [PASS] get_arc_state: construction=False, deletable=True
+2025-09-05 10:46:46,689 - INFO - [PASS] Arc query methods: PASSED
+2025-09-05 10:46:46,690 - INFO - Testing helper methods...
+2025-09-05 10:46:46,690 - INFO - MockArcOperations initialized
+2025-09-05 10:46:46,690 - INFO - Testing _find_sketch_arc
+2025-09-05 10:46:46,690 - INFO - [PASS] _find_sketch_arc: found arc mock_arc_1
+2025-09-05 10:46:46,691 - INFO - [PASS] _find_sketch_arc: correctly returns None for nonexistent arc
+2025-09-05 10:46:46,691 - INFO - Testing _find_sketch_curve
+2025-09-05 10:46:46,691 - INFO - [PASS] _find_sketch_curve: found curve mock_arc_2
+2025-09-05 10:46:46,692 - INFO - [PASS] _find_sketch_curve: correctly returns None for nonexistent curve
+2025-09-05 10:46:46,692 - INFO - [PASS] Helper methods: PASSED
+2025-09-05 10:46:46,692 - INFO - Testing error handling scenarios...
+2025-09-05 10:46:46,692 - INFO - MockArcOperations initialized
+2025-09-05 10:46:46,693 - INFO - [PASS] Error handling: missing params - sketch_id is required
+2025-09-05 10:46:46,693 - INFO - [PASS] Error handling: invalid point type - Point must be a dictionary
+2025-09-05 10:46:46,694 - INFO - [PASS] Error handling: invalid coordinates - Point coordinates must be numbers
+2025-09-05 10:46:46,694 - INFO - [PASS] Error handling: nonexistent sketch returns None
+2025-09-05 10:46:46,694 - INFO - [PASS] Error handling: PASSED
+2025-09-05 10:46:46,695 - INFO - ============================================================
+2025-09-05 10:46:46,695 - INFO - TEST SUMMARY REPORT
+2025-09-05 10:46:46,695 - INFO - ============================================================
+2025-09-05 10:46:46,695 - INFO - Start time: 2025-09-05 10:46:46.679813
+2025-09-05 10:46:46,696 - INFO - End time: 2025-09-05 10:46:46.695810
+2025-09-05 10:46:46,696 - INFO - Duration: 0:00:00.015997
+2025-09-05 10:46:46,696 - INFO - 
+2025-09-05 10:46:46,697 - INFO - [PASS] OVERALL RESULT: ALL TESTS PASSED
+2025-09-05 10:46:46,697 - INFO - Tests passed: 5/5
+2025-09-05 10:46:46,697 - INFO - 
+2025-09-05 10:46:46,698 - INFO - TESTED METHODS:
+2025-09-05 10:46:46,698 - INFO -   [PASS] create_arc_by_three_points
+2025-09-05 10:46:46,698 - INFO -   [PASS] create_arc_by_center_start_sweep
+2025-09-05 10:46:46,699 - INFO -   [PASS] create_arc_fillet
+2025-09-05 10:46:46,699 - INFO -   [PASS] break_arc_curve
+2025-09-05 10:46:46,699 - INFO -   [PASS] extend_arc
+2025-09-05 10:46:46,700 - INFO -   [PASS] split_arc
+2025-09-05 10:46:46,700 - INFO -   [PASS] trim_arc
+2025-09-05 10:46:46,700 - INFO -   [PASS] get_arc_intersections
+2025-09-05 10:46:46,701 - INFO -   [PASS] get_arc_properties
+2025-09-05 10:46:46,701 - INFO -   [PASS] get_arc_constraints
+2025-09-05 10:46:46,701 - INFO -   [PASS] get_arc_state
+2025-09-05 10:46:46,701 - INFO -   [PASS] _find_sketch_arc
+2025-09-05 10:46:46,702 - INFO -   [PASS] _find_sketch_curve
+2025-09-05 10:46:46,702 - INFO - 
+2025-09-05 10:46:46,702 - INFO - NOTE: These tests simulate the arc_operations.py methods outside of Fusion 360.
+2025-09-05 10:46:46,702 - INFO - All methods passed their mock implementations successfully.
+2025-09-05 10:46:46,703 - INFO - Deploy to Fusion 360 using @deploy_fusion_addon.py to test with real API.
